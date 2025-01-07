@@ -1,11 +1,19 @@
 Proyecto React Modulo 5 Ejercicio Práctico 1
-1.- Para para su instalacion:
-crear una carpeta
-ejecutar git clone
-Este proyecto utiliza React, Bootstrap y Axios para realizar peticiones a una API que devuelve una lista de doctores.
+
+Este proyecto utiliza React, Bootstrap y Axios para realizar peticiones a una API que devuelve una lista de doctores y tener git npm y node instalados.
 
 Nombre: Edwin Maureira
 curso: Frontend Corfo grupo 1
+
+1.- Para para su instalacion:
+crear una carpeta
+ejecutar git clone https://github.com/emaureira/modulo5_ejercicioPractico1.git
+ir a la carpeta modulo5_ejercicioPractico1
+ejecutar sudo (linux o mac) npm install //Para instalar lo necesario para ejecutar el proyecto
+ejecutar sudo (linux o mac) npm run dev //Para lanzar el proyecto en modo de desarrollo
+
+Presionar sobre Recargar Lista para cargar la lista nuevamente, estos para hacer el llamado cuando el usuario quiera
+
 
 Se utiliza Axio principalmente por:
 
