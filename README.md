@@ -1,16 +1,18 @@
-Proyecto React Practico 1 M5
-
+Proyecto React Modulo 5 Ejercicio Práctico 1
+1.- Para para su instalacion:
+crear una carpeta
+ejecutar git clone
 Este proyecto utiliza React, Bootstrap y Axios para realizar peticiones a una API que devuelve una lista de doctores.
 
-Nombre: Felipe Rodriguez
+Nombre: Edwin Maureira
 curso: Frontend Corfo grupo 1
 
+Se utiliza Axio principalmente por:
 
-Se ha elegido Axios en lugar de Fetch API por las siguientes razones:
+*Protección contra XSRF* : Incorpora soporte para la protección XSRF utilizando cookies de formar predeterminada, lo que es una opción mas segura por decto, frente a Fetch API,no trae protección
 
-*   **Manejo de Errores Simplificado:** Axios automáticamente convierte las respuestas de la API a formato JSON y maneja de forma más eficiente los errores HTTP, permitiendo un código más limpio y legible.
-*   **Interceptores:** Axios permite la configuración de interceptores para peticiones y respuestas, lo cual puede ser útil para manejar casos de autenticación, logeo, etc. en aplicaciones más complejas.
-*   **Cancelación de Peticiones:**  Axios facilita la cancelación de peticiones, algo que es útil en aplicaciones con muchas peticiones.
-*   **Comunidad y Soporte:** Axios tiene una gran comunidad y está bien documentado, lo cual facilita el desarrollo y la resolución de problemas.
+*Mayor Facilidad de Uso* : Es más simple e intuitiva para realizar peticios HTTP, ya que posee una sintaxis más agradable y fácil de recordar frente a Fecth API que requiere más esfuerzo para escribir y entender
 
-Aunque Fetch API es una alternativa válida, Axios ofrece estas ventajas que resultan en un desarrollo más cómodo y eficiente en este caso.
+*JSON* : Axios transforma automáticamente las respuestas JSON a objetos javascript, reduciendo la cantidad de código y lograndoun trabajo más facil con los datos, Fetch API, requiere usar response.json(), para parsear las respuestas como JSON, siendo un paso extra necesario cuando se esperan datos en formato JSON
+
+*Manejo de Errores* Axios, lanza automáticamente un error cuando la respuesta tiene un código de estado fuera del rango 2xx, simplificando el código de manejor de errores. Fecth api debe verificar primero con response.ok y luego lanzar manualmente el error
